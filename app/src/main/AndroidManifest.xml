@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Practica1"
         tools:targetApi="33">
         <activity
+            android:name=".Parte2Activity"
+            android:exported="false" />
+        <activity
             android:name=".SaludoActivity"
             android:exported="false" />
         <activity

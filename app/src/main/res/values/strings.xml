@@ -4,5 +4,8 @@
     <string name="introduce_tu_nombre">Introduce tu nombre</string>
     <string name="msj_nombre">Es necesario introducir el nombre</string>
     <string name="saludo">Hola %s!!</string>
+    <string name="hora_label">Hora: %1$s</string>
+    <string name="hora_de_inicio">Hora de inicio: %1$s</string>
+    <string name="hora_actual">Hora actual: %1$s</string>
 
 </resources>

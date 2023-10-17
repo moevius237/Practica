@@ -51,4 +51,34 @@
         android:text="@android:string/ok"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etNombre" />
+
+    <TextView
+        android:id="@+id/tvParte2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:layout_marginBottom="444dp"
+        android:text="Parte 2"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNombre"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btParte2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PARTE_2"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+    <TextView
+        android:id="@+id/tvHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="304dp"
+        tools:text="La hora Actual es" />
 </androidx.constraintlayout.widget.ConstraintLayout>
