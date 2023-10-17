@@ -17,7 +17,7 @@ class SaludoActivity : AppCompatActivity() {
         //asignamos la instancia de tvSaludo
         val nombre=intent.getStringExtra(EXTRA_NOMBRE)
         //mostramos el valor
-        tvSaludo.text="Hola "+nombre+"!!"
+        tvSaludo.text= String.format(getString(R.string.saludo),nombre)
     }
 
 

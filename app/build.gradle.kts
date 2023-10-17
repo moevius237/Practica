@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "net.iessochoa.pablolopez.practica1"
-    compileSdk = 34
+    compileSdk = 33
 
     defaultConfig {
         applicationId = "net.iessochoa.pablolopez.practica1"
         minSdk = 21
-        targetSdk = 34
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 

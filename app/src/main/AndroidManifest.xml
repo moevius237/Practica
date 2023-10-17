@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Practica1"
-        tools:targetApi="34">
+        tools:targetApi="33">
         <activity
             android:name=".SaludoActivity"
             android:exported="false" />

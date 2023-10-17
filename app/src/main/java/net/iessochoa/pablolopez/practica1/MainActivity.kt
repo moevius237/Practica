@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
                 etNombre.text.toString())
             startActivity(intent)
         } else
-            Toast.makeText(this, "Es necesario introducir el nombre",
+            Toast.makeText(this, getString(R.string.msj_nombre),
                 Toast.LENGTH_LONG).show()
     }
 
