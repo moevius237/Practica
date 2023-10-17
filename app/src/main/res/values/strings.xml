@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Practica1</string>
+    <string name="practica1_pablo_l_pez_trives">Practica1 Pablo López Trives</string>
+    <string name="introduce_tu_nombre">Introduce tu nombre</string>
 </resources>
